@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../exercise.css">
+        <title>Ejercicio 14</title>
+    </head>
+
+    <body>
+        <div class="solucion">
+            <div>
+                <h1>Ejercicio 14</h1>
+                <p>Una compañía, fabrica focos de colores (verdes, blancos y rojos). Se desea
+                    contabilizar, de un lote de N focos, el número de focos de cada color que hay en
+                    existencia</p>
+                <p>const contarFocos = function () <br>{
+                    let verde = 0;<br>
+                    let blanco = 0;<br>
+                    let rojo = 0;<br>
+                    userInput = prompt('Ingrese una opciones verde = 1, blanco = 2, rojo = 3 si quieres salir escribe:
+                    quit');<br>
+                    while (userInput !== 'quit') <br>{
+                    if (Number.parseInt(userInput) === 1) {<br>
+                    verde++;<br>
+                    } else if (Number.parseInt(userInput) === 2) {<br>
+                    blanco++;<br>
+                    } else if (Number.parseInt(userInput) === 3)<br> {
+                    rojo++;<br>
+                    }<br>
+                    userInput = prompt('Ingrese una opciones verde = 1, blaco = 2, rojo = 3 si quieres salir escribe:
+                    quit')<br>
+                    }
+                    console.log(`El numero de verde es:${verde}, blanco es: ${blanco} y rojo es ${rojo}`);
+                    }</p>
+            </div>
+        </div>
+        <script src="./exercise14.js"></script>
+    </body>
+
+</html>

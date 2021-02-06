@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../exercise.css">
+        <title>Ejercicio 13</title>
+    </head>
+
+    <body>
+        <div class="solucion">
+            <div>
+                <h1>Ejercicio 13</h1>
+                <p>Realice un algoritmo para leer las calificaciones de N alumnos y determine el
+                    número de aprobados y reprobados</p>
+                <p>const consulNotas = function (nota1, nota2, nota3)<br> {
+                    let aprobados = 0;<br>
+                    let desaprobados = 0;<br>
+                    const notas = [nota1, nota2, nota3];<br>
+                    for (let i = 0; i < notas.length; i++)<br> { if (notas[i]>= 13) <br>{
+                        aprobados++;<br>
+                        } else desaprobados++;<br>
+                        }<br>
+                        console.log(`El numero de aprobados es ${aprobados} y el desaprobados es ${desaprobados}`);
+                        }
+                </p>
+            </div>
+        </div>
+        <script src="./exercise13.js"></script>
+    </body>
+
+</html>

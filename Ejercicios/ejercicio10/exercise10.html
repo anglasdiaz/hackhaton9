@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../exercise.css">
+        <title>Ejercicio 10</title>
+    </head>
+
+    <body>
+        <div class="solucion">
+            <div>
+                <h1>Ejercicio 10</h1>
+                <p>Se tiene el nombre y la edad de tres personas. Se desea saber el nombre y la
+                    edad de la persona de menor edad</p>
+                <p>const buscarMenor = function ()<br> {
+                    const edades = [];<br>
+
+
+                    const personas = [{
+                    name: 'Alejandra',<br>
+                    edad: 25
+                    },
+                    {
+                    name: 'Pedro',<br>
+                    edad: 20
+                    },
+                    {
+                    name: 'Francisco',<br>
+                    edad: 28
+                    }]<br>
+
+                    personas.forEach(persona => {<br>
+                    edades.push(persona.edad);
+                    });<br>
+
+                    let menor = edades[0];<br>
+
+                    for (let i = 0; i < edades.length; i++)<br> { if (edades[i] < menor)<br> { menor=edades[i]; }<br> }
+                            <br>personas.forEach(persona=> {<br>
+                            if (menor === persona.edad)<br> {
+                            console.log(`El menor es ${persona.name} con ${persona.edad} anios`);
+                            }
+                            });
+                            }</p>
+            </div>
+        </div>
+        <script src="./exercise10.js"></script>
+    </body>
+
+</html>
