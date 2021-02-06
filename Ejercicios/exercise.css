@@ -1,12 +1,12 @@
 body{
     margin: 0;
-    background-color: #000000;
+    background-color: #242423;
 }
 .solucion{
     width: 1200px;
     height: 100vh;
     margin: 0 auto;
-    color: #ffffff;
+    color: #e8eddf;
     font-size: 25px;
     display: flex;
     justify-content: center;
